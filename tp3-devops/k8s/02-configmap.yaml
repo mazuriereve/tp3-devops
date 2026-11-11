@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: page-web
+  namespace: tp-k8s
+data:
+  index.html: |
+    <!DOCTYPE html>
+    <html lang="fr">
+    <head>
+      <meta charset="UTF-8">
+      <title>TP Kubernetes</title>
+    </head>
+    <body>
+        <h1>Version 2 — Application Kubernetes</h1>
+        <p> Cours sur le DevOps .</p>
+    </body>
+    </html>
